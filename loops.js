@@ -24,7 +24,8 @@ function whileLoop(number) {
       return "done"
     }
     else {
-      console.log(--number)
+      console.log(number)
+      --number
     }
   }
 }
