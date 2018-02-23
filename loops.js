@@ -16,7 +16,7 @@ loops.js. The function should take a number
 as an argument. Using a while loop, count down
 (using console.log) from the passed in number
 to 0. Then return the string 'done'.
-*/
+
 function whileLoop(number) {
   if (number === 0) {
     return "done"
@@ -24,4 +24,9 @@ function whileLoop(number) {
   else {
     console.log(--number)
   }
+}
+*/
+
+function whileLoop(number) {
+  console.log(--number)
 }
