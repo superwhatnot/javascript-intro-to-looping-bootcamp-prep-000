@@ -28,7 +28,7 @@ function doWhileLoop(array) {
   }
 
   while (maybeTrue() && array.length > 0) {
-    array.shift()
+    array.pop()
   }
 
   return array
